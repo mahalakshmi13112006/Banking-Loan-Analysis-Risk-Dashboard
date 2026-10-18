@@ -21,6 +21,13 @@ This project uses Microsoft Power BI to analyze banking loan applications, loan 
 - CSV or Excel dataset
 
 ## Dashboard Pages
+## Dashboard Preview
+
+### Page 1 — Overview
+![Dashboard Overview](Screenshots/dashboard-page-1.png)
+
+### Page 2 — Detailed Analysis
+![Detailed Analysis](Screenshots/dashboard-page-2.png)
 
 ### Page 1: Overview Dashboard
 - Total Applications
