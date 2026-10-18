@@ -20,7 +20,7 @@ This project uses Microsoft Power BI to analyze banking loan applications, loan 
 - DAX, if used to create measures
 - CSV or Excel dataset
 
-## Dashboard Pages
+
 ## Dashboard Preview
 
 ### Page 1 — Overview
@@ -29,6 +29,7 @@ This project uses Microsoft Power BI to analyze banking loan applications, loan 
 ### Page 2 — Detailed Analysis
 ![Detailed Analysis](Screenshots/dashboard-page-2.png)
 
+## Dashboard Pages
 ### Page 1: Overview Dashboard
 - Total Applications
 - Total Loan Amount
