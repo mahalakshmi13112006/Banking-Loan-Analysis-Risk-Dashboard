@@ -1,73 +1,104 @@
-# Banking-Loan-Analysis-Risk-Dashboard
-An interactive Power BI dashboard for analyzing banking loan applications, loan amounts, approval rates, customer segments, and default risks to support data-driven decision-making.
-
 # Banking Loan Analysis & Risk Dashboard
 
-## About the Project
-This project uses Microsoft Power BI to analyze banking loan applications, loan amounts, customer segments, approval rates, and default risks. The dashboard presents key information through interactive charts and KPI cards.
+## Project Overview
 
-## Objectives
-- Analyze the total number of loan applications.
-- Monitor total loan amounts, approval rates, and default rates.
-- Understand monthly loan application trends.
-- Compare loan applications across loan types and customer segments.
-- Explore customer risk and credit score patterns.
-- Analyze lending across employment types and regions.
+The **Banking Loan Analysis & Risk Dashboard** is an interactive data analytics project developed using Microsoft Power BI. It analyzes banking loan applications, loan amounts, approval rates, customer segments, and default risks through visualizations and key performance indicators (KPIs).
 
-## Tools Used
-- Microsoft Power BI Desktop
-- Power Query, if used for data preparation
-- DAX, if used to create measures
-- CSV or Excel dataset
+The dashboard helps users understand loan performance, identify customer risk patterns, and explore lending trends to support data-driven decision-making.
 
+## Project Objectives
 
-## Dashboard Preview
+- Analyze total loan applications and total loan amounts.
+- Monitor loan approval rates and default rates.
+- Visualize monthly loan application trends.
+- Analyze loan distribution by loan type.
+- Compare applications across customer segments.
+- Examine credit score distributions and customer risk patterns.
+- Analyze loan amounts across employment types and regions.
 
-### Page 1 — Overview
-![Dashboard Overview](Screenshots/dashboard-page-1.png)
+## Tools & Technologies
 
-### Page 2 — Detailed Analysis
-![Detailed Analysis](Screenshots/dashboard-page-2.png)
+- **Microsoft Power BI Desktop** — Dashboard creation and data visualization
+- **Power Query** — Data cleaning and transformation, where applicable
+- **DAX** — Measures and calculated metrics, where applicable
+- **Microsoft Excel** — Dataset storage and inspection
+- **CSV** — Structured data storage
 
-## Dashboard Pages
-### Page 1: Overview Dashboard
-- Total Applications
-- Total Loan Amount
-- Approval Rate
-- Default Rate
+## Dashboard Features
+
+### Page 1: Banking Loan Overview
+
+- Total Applications KPI
+- Total Loan Amount KPI
+- Approval Rate KPI
+- Default Rate KPI
 - Monthly Loan Application Trends
 - Loan Distribution by Type
 - Loan Status Analysis
 - Customer Risk Analysis
+- Region filter for interactive analysis
 
 ### Page 2: Detailed Analysis
+
 - Applications by Customer Segment
 - Credit Score Distribution
 - Loan Amount by Employment Type
-- Additional analysis based on the fields available in the dataset
+- Additional loan and regional analysis based on the available dataset fields
 
-## Dataset
-The dataset contains loan-related information used for analysis. Confirm the dataset source before publishing it. Do not upload confidential or personally identifiable customer information.
+## Dataset Description
 
-## How to Use
-1. Download the Power BI report (`.pbix`) from this repository.
+The dataset contains loan-related attributes used to analyze application patterns, loan amounts, customer segments, credit scores, employment types, loan status, and default indicators.
+
+The repository includes:
+- `banking_loan_risk_preprocessed.csv`
+- `banking_loan_risk_preprocessed.xlsx`
+
+**Note:** Confirm the dataset source before reuse. Any dataset shared publicly should be synthetic or otherwise authorized for public distribution and must not contain confidential personal or banking information.
+
+## Repository Structure
+
+```text
+Banking-Loan-Analysis-Risk-Dashboard/
+│
+├── README.md
+├── LICENSE
+├── dashboard.pbix
+├── banking_loan_risk_preprocessed.csv
+├── banking_loan_risk_preprocessed.xlsx
+│
+└── Screenshots/
+    ├── dashboard-page-1.png
+    └── dashboard-page-2.png
+```
+
+*The screenshot filenames above are examples. Update them to match your actual files.*
+
+## How to Run the Project
+
+1. Download or clone this repository.
 2. Install Microsoft Power BI Desktop.
-3. Open the `.pbix` file in Power BI Desktop.
-4. Use the available filters and charts to explore the data.
+3. Open `dashboard.pbix` in Power BI Desktop.
+4. If Power BI requests a data source location, select the downloaded dataset and update the source path if necessary.
+5. Explore the charts, KPI cards, and available filters.
 
-## Project Files
-- `Banking_Loan_Risk_Dashboard.pbix` — Power BI dashboard file
-- `screenshots/` — Dashboard preview images
-- Dataset file — Include only if it is permitted to be shared
+## Key Learning Outcomes
 
-## Key Learnings
-- Designing interactive Power BI dashboards
-- Creating KPI cards and visualizations
-- Analyzing loan performance and customer segments
-- Presenting data insights clearly
+- Data analysis and visualization using Power BI
+- Dashboard layout and design
+- KPI creation and interpretation
+- Loan performance and customer risk analysis
+- Data cleaning and preprocessing
+- Communicating analytical findings through interactive reports
 
-## Author
-Add your name and LinkedIn or portfolio link here.
+## Authors
+
+- **Mahalakshmi S**
+- **Mohammed Hussain R**
+
+## License
+
+This project is distributed under the MIT License. Refer to the `LICENSE` file for details.
 
 ## Disclaimer
-This project is created for educational and portfolio purposes. The analysis depends on the quality and limitations of the dataset and should not be used as the sole basis for real lending decisions.
+
+This project is intended for educational and portfolio purposes. Insights depend on the quality and limitations of the dataset and should not be treated as professional financial advice or used as the sole basis for actual lending decisions.
